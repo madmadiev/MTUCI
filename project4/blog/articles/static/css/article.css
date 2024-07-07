@@ -1,0 +1,77 @@
+/* Общие стили для всех страниц */
+body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для логотипа */
+.header img {
+    display: block;
+    width: 318px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+}
+
+/* Стили для страницы архива */
+.archive {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Цвет ссылок на заголовки постов */
+.post-title a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Стили для страницы отдельной статьи */
+.article {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+}
+
+.article h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.article-info {
+    margin-bottom: 20px;
+}
+
+.article-author {
+    width: 50%;
+    float: left;
+}
+
+.article-created-date {
+    text-align: right;
+    width: 50%;
+    float: right;
+}
+
+.article-text {
+    clear: both;
+    line-height: 1.6;
+}
+
+/* Стили для кнопки "Все статьи" */
+.all-articles {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.all-articles a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #16a085;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
