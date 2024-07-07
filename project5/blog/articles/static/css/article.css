@@ -1,0 +1,127 @@
+/* Общие стили для всех страниц */
+body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для логотипа */
+.header img {
+    display: block;
+    width: 318px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+}
+
+/* Стили для страницы архива */
+.archive {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Цвет ссылок на заголовки постов */
+.post-title a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Стили для страницы отдельной статьи */
+.article {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+    background: #0000ff; /* Синий фон */
+    color: #000000; /* Черный текст */
+}
+
+.article h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.article-info {
+    margin-bottom: 20px;
+}
+
+.article-author {
+    width: 50%;
+    float: left;
+}
+
+.article-created-date {
+    text-align: right;
+    width: 50%;
+    float: right;
+}
+
+.article-text {
+    clear: both;
+    line-height: 1.6;
+}
+
+/* Стили для кнопки "Все статьи" */
+.all-articles {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.all-articles a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #16a085;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Стили для формы создания статьи */
+.create-post-form {
+    background: #0000ff; /* Синий фон */
+    color: #000000; /* Черный текст */
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.create-post-form h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.create-post-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.create-post-form input[type="text"],
+.create-post-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+.create-post-form button {
+    background-color: #16a085;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.create-post-form button:hover {
+    background-color: #138d75;
+}
+
+.form-errors {
+    color: #ff0000;
+}
