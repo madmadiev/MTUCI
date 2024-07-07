@@ -65,17 +65,21 @@ body {
 }
 
 /* Стили для кнопки "Все статьи" */
-.all-articles {
+.all-articles, .register-link {
     text-align: right;
     margin-bottom: 20px;
 }
 
-.all-articles a {
+.all-articles a, .register-link a {
     color: #ffffff;
     text-decoration: none;
     background-color: #16a085;
     padding: 10px 15px;
     border-radius: 5px;
+}
+
+.all-articles a:hover, .register-link a:hover {
+    background-color: #138d75;
 }
 
 /* Стили для формы создания статьи */
@@ -119,6 +123,52 @@ body {
 }
 
 .create-post-form button:hover {
+    background-color: #138d75;
+}
+
+.form-errors {
+    color: #ff0000;
+}
+
+/* Стили для формы авторизации */
+.login-form {
+    width: 360px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: #16a085;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+.login-form h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+.login-form button {
+    background-color: #16a085;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
     background-color: #138d75;
 }
 

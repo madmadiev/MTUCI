@@ -8,6 +8,9 @@
 <body class="archive">
 	<div class="header">
 		<img src="{% static 'images/logo.png' %}" alt="Logo">
+        <div class="register-link">
+            <a href="{% url 'register' %}">Регистрация</a>
+        </div>		
 	</div>
 	<div class="all-articles">
         <a href="{% url 'create_post' %}">Создать статью</a>

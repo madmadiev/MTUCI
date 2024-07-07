@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация завершена</title>
+    <link rel="stylesheet" href="{% static 'css/article.css' %}">
+</head>
+<body>
+    <div class="header">
+        <img src="{% static 'images/logo.png' %}" alt="Logo">
+    </div>
+    <div class="register-done">
+        <h1>Регистрация завершена</h1>
+        <p>Пользователь {{ new_user.username }} успешно зарегистрирован!</p>
+        <a href="{% url 'archive' %}">На главную</a>
+    </div>
+</body>
+</html>
